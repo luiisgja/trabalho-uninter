@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradiente em CSS</title>
+
+    <!--pra fazer gradient é sempre com "background-image: linear-gradient ou então radial-gradient"-->
+
+    <!--você pode escolher para qual posição quiser, aqui nesse exemplo tá da direita pra esquerda-->
+
+    <!--exemplo de posições que você pode usar "to top, to right, to left e to bottom", você pode usar até com ângulos, por exemplo "90deg (90°)"-->
+
+    <!--"background-attachment: fixed é para fixar a tela mesmo você rolando ela"-->
+
+    <!--usar de 3 a 5 cores no máximo-->
+
+    <style>
+      * {
+        /* o "*" é as configurações globais das CSS */
+        height: 100%;
+      }
+
+      body {
+        background-image: linear-gradient(
+          to bottom,
+          #5a53c9,
+          #ae3393,
+          #d72b76,
+          #f7712c,
+          #fdcf6e
+        );
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Testando Gradiente</h1>
+  </body>
+</html>

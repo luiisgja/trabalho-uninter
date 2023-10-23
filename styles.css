@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* Estilos para o menu */
+header {
+  background-color: #ff00c8; /* Cor de fundo do cabeçalho */
+  color: #fff; /* Cor do texto no cabeçalho */
+  padding: 10px 0; /* Espaçamento interno no cabeçalho */
+}
+
+nav ul {
+  list-style: none; /* Remove os marcadores de lista */
+  margin: 0; /* Remove a margem padrão */
+  padding: 0; /* Remove o preenchimento padrão */
+}
+
+nav ul li {
+  display: inline; /* Exibe os itens de menu em linha (horizontalmente) */
+  margin-right: 20px; /* Espaçamento entre os itens de menu */
+}
+
+nav a {
+  text-decoration: none; /* Remove a decoração de link (sublinhado) */
+  color: #fff; /* Cor do texto dos links no menu */
+}
+
+/* styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("Imagens/cropped-5120-2880-1162975.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+
